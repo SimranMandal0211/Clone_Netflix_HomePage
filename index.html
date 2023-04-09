@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix index</title>
+    
+    <!-- for css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- for font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Poppins:wght@500;600;800&family=Readex+Pro:wght@300&family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <section class=" section1 navContainer widthFull">
+            <img src="images/netflixBgImg.jpg" alt="...">
+            <div class="bgBlur" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);">
+                <nav class="flex">
+                    <div class="logo">
+                        <img src="images/NNN.png" alt="error" class="imgLogo">
+                    </div>
+                    
+                    <div class="navButtons flex">
+                        <div class="lang_btn1 border cursor bgBlack">
+                            <i class="fa-solid fa-globe"></i>
+                            <select name="lang" id="lang" class="bgBlack">
+                                <option value="English">English</option>
+                                <option value="Hindi">हिन्दी</option>
+                            </select>
+                        </div>
+                        <button class="signInBtn border cursor">
+                            Sign In
+                        </button>
+                    </div>
+                </nav>   
+    
+                <div class="navContent flex">
+                    <div class="navContentCenter flex">
+                        <h1>Unlimited movies, TV shows and more</h1>
+                        <h2 class="font500 mTB1">Watch anywhere. Cancel anytime.</h2>
+                            <!--continue  -->
+                        <form action="index.php" method="post">
+                            <h3 class="font500">
+                                Ready to watch? Enter your email to create or restart your membership.
+                            </h3>
+                            <div class="emailBox flex">
+                                <div class="emailInputBox mTB1">
+                                    <input type="text" id="mailId" />
+                                    <label for="mailId" class="labelEmail">Email address</label>
+                                </div>
+                                <button class="cursor font500">Get Started ></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+<hr>
+        <section class="section2 flex height80 widthFull">
+            <div class="contentS2 flex">
+                <h1>Enjoy on your TV.</h1>
+                <h3>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+            </div>
+
+            <div class="Ad_Video_Clip">
+                <img src="images/TVbg.png" alt="erroe" class="bg_image-in-Ad_Video_clip">
+                <div class="video1">
+                    <video src="images/video-tv-in-0819.mp4" autoplay="" muted="" loop="" playsinline=""></video>
+                </div>
+            </div>   
+        </section>
+<hr>
+        <section class="section3 flex widthFull height80">
+            <div class="video2 flex">
+                <img src="images/mobile-0011.jpg" alt="error" id="img_inside_video2">
+                
+                <div class="msgBox_section3 flex">
+                    <img src="images/boxshot.png" alt="error">
+                    <div>
+                        <p>Stranger Things</p>
+                        <p class="blueText">Downliading...</p>
+                    </div>
+                    <div><i class="fa fa-solid fa-arrow-down-to-line"></i></div>
+                </div>
+            </div> 
+            <div class="contentS3 flex">
+                <h1>Download your shows to watch offline.</h1>
+                <h3>Save your favourite easily and alway have something to watch.</h3>
+            </div>
+        </section>
+<hr>
+        <section class="section4 flex height80 widthFull">
+            <div class="contentS4 flex">
+                <h1>Watch everywhere.</h1>
+                <h3>Stream unlimited movie and TV shows on your phone,tablet, laptop and TV.</h3>
+            </div>
+
+            <div class="Ad_Video_Clip_2">
+                <img src="images/device-pile-in.png" alt="error" class="bg_image-in-Ad_Video_clip_2">
+                <video class="video_2" autoplay="" muted="" loop="" playsinline="">
+                    <source src="images/video-devices-in.mp4" type="video/mp4">
+                </video>
+            </div>    
+        </section>
+<hr>
+        <section class="section5 flex height80 widthFull">
+            <div class="kid_section_image_5">
+                <img src="images/kid_section.png" alt="error">
+            </div>
+            <div class="contentS5 flex">
+                <h1>Create profile for children.</h1>
+                <h3>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+            </div>
+        </section>
+<hr>
+        <section class="section6 flex widthFull">
+            <h1>Frequently Asked Questions</h1>
+
+            <ul class="flex">  
+                <li class="msgDrops_list">
+                    <div class="msgDrops_button cursor flex">What is Netflix?</div>
+                    <div class="textDrops_button">
+                        <p class="msg-content">
+                            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more-on thousands of internet-connected devices.                                
+                            <br><br>
+                            You can watch as much as you want, whenever you want, without a single ad - all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!             
+                        </p>
+                    </div>
+                </li>
+                <li class="msgDrops_list">
+                    <div class="msgDrops_button cursor flex">How much does Netflix cost?</div>
+                    <div class="textDrops_button">                             
+                        <p class="msg-content">
+                            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.             
+                        </p>
+                    </div>
+                </li>
+                <li class="msgDrops_list">
+                    <div class="msgDrops_button cursor flex">Where can I watch?</div>
+
+                    <div class="textDrops_button">
+                        <p class="msg-content">
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                            <br><br>
+                            You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.             
+                        </p>
+                    </div>
+                </li>
+                <li class="msgDrops_list">
+                    <div class="msgDrops_button cursor flex">How do i cancel?</div>
+                    <div class="textDrops_button">
+                        <p class="msg-content">
+                            Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees - start or stop your account anytime.             
+                        </p>
+                    </div>
+                </li>
+                <li class="msgDrops_list">
+                    <div class="msgDrops_button cursor flex">What can I watch on Netflix</div>
+                    <div class="textDrops_button">
+                        <p class="msg-content">                                    
+                            Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.             
+                        </p>
+                    </div>
+                </li>
+                <li class="msgDrops_list">
+                    <div class="msgDrops_button cursor flex">Is Netflix Good for Kids?</div>
+                    <div class="textDrops_button">
+                        <p class="msg-content">
+                            The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+                            <br><br>
+                            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don't want kids to see.            
+                        </p>
+                    </div>
+                </li>            
+            </ul>
+                
+            <form action=" " method="get">
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                <div class="emailBox flex">
+                    <div class="emailInputBox mTB1">
+                        <input type="text" id="mailId" />
+                        <label for="mailId" class="labelEmail">Email address</label>
+                    </div>
+                    <button class="cursor font500">Get Started ></button>
+                </div>
+            </form>     
+        </section>
+<hr>
+        <section class="section7 flex widthFull">
+           <div class="contentS7 flex">
+                <div id="padding1">Questions? Call 
+                    <a href="index.html" class="call">000-800-040-1843</a>
+                </div>
+                <ul class="flex padding1">
+                    <li class="footer_link_item">
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Help Center</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Account</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Media Center</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Investor Relations</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Jobs</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Ways to watch</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Cookie Preferences</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Corporate Information</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Speed Test</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Legal Notices</a>
+                    </li>
+                    <li class="footer_link_item">
+                        <a href="#">Only on Netflix</a>
+                    </li>
+                </ul>
+                <div class="lang_btn1 border cursor bgBlack padding1">
+                    <i class="fa-solid fa-globe"></i>
+                    <select name="lang" id="lang" class="bgBlack">
+                        <option value="English">English</option>
+                        <option value="Hindi">हिन्दी</option>
+                    </select>
+                </div>
+                <div class="padding1" style="padding-left:0;">Netflix India</div>
+            </div>  
+        </section>
+    </div>
+    
+
+
+    <!-- for jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
